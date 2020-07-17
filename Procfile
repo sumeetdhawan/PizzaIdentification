@@ -1,1 +1,1 @@
-web: gunicorn type_identification.app:app
+web: gunicorn PizzaIdentification.type_identification.app:app
