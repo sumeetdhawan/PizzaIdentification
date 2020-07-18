@@ -47,3 +47,4 @@ urllib3==1.25.9
 wasabi==0.7.1
 Werkzeug==1.0.1
 zipp==3.1.0
+setuptools==1.0
