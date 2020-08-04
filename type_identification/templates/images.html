@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div id="modalContainer">
+<div class="the-modal-content">
+  <img  class ='image-Form' height="400" width="600"id='imageForm' src='' alt="CLICK AN IMAGE TO DISPLAY"> 
+   <div id="img-button">
+     <button id="submitImage" type="submit" class="btn btn-primary" onclick="sendurl()"><a href="dbresult">submit</a></button>
+   </div>
+</div>
+</div>
+<div onclick="push(event)">
+{% for pizza in a_pizza %}
+<img   class='display-image' src='{{ pizza }}' >
+{% endfor %}
+</div>
+{% endblock %}
